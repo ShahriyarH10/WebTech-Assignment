@@ -19,7 +19,7 @@
 
         <fieldset>
             <legend>SEARCH</legend>
-            <input type="text" id="search_text" placeholder="Search Product">
+            <input type="text" id="search_text" onkeyup="searchProduct()" placeholder="Search Product">
             <button onclick="searchProduct()">Search by Name</button>
             <br><br>
 
