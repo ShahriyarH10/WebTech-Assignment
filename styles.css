@@ -1,0 +1,49 @@
+/* Page base styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  padding: 20px;
+  background: #f7f7f7;
+}
+
+/* Fieldset and legend styles to make borders consistent and visible */
+fieldset {
+  border: 2px solid #4a4a4a; /* stronger visible border */
+  padding: 1rem 1.25rem;     /* space inside the fieldset */
+  border-radius: 6px;       /* rounded corners */
+  background: #ffffff;      /* white background to contrast on light page */
+  margin-bottom: 1rem;
+}
+
+legend {
+  padding: 0 10px;          /* ensures legend text sits nicely on the border */
+  font-weight: bold;
+}
+
+/* Optional: tidy up the form inputs to match the fieldset */
+input[type="text"],
+input[type="number"],
+input[type="submit"] {
+  padding: 0.4rem 0.6rem;
+  font-size: 1rem;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+/* Menu styles (moved from inline to stylesheet) */
+.menu {
+  margin-bottom: 20px;
+}
+
+.menu button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+}

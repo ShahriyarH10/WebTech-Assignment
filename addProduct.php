@@ -27,14 +27,35 @@ if (isset($_POST['save'])) {
 
 <head>
     <title>Add Product</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    
 </head>
+<style>
+    .menu {
+        margin-bottom: 20px;
+    }
 
+    .menu button {
+        margin-right: 4px;
+        padding: 10px;
+      
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: black;
+    }
+
+    fieldset {
+        width: 300px;
+        padding: 20px;
+    }
+</style>
 <body>
     <section class="menu">
-        <a href="addProduct.php">Add Product</a>
-        <a href="displayProduct.php">Display Product</a>
-        <a href="search.php">Search Product</a>
+
+        <button> <a href="addProduct.php">Add Product</a></button>
+        <button> <a href="displayProduct.php">Display Product</a></button>
+        <button> <a href="search.php">Search Product</a></button>
     </section>
 
     <form method="POST" action="">
