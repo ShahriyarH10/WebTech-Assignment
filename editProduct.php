@@ -34,21 +34,6 @@ if (isset($_POST['update'])) {
 </head>
 
 <style>
-    .menu {
-        margin-bottom: 20px;
-    }
-
-    .menu button {
-        margin-right: 4px;
-        padding: 10px;
-      
-    }
-
-    .menu a {
-        text-decoration: none;
-        color: black;
-    }
-
     fieldset {
         width: 300px;
         padding: 20px;
