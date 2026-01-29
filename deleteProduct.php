@@ -24,17 +24,8 @@ $data = $result->fetch_assoc();
 
 <head>
     <title>Delete Product</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    fieldset {
-        width: 300px;
-        padding: 20px;
-    }
-
-    p {
-        margin: 3px 0;
-    }
-</style>
 
 <body>
     <form method="POST" action="">

@@ -30,40 +30,38 @@ if (isset($_POST['update'])) {
 <html>
 <head>
     <title>Edit Product</title>
+    <link rel="stylesheet" href="style.css">
    
 </head>
 
-<style>
-    fieldset {
-        width: 300px;
-        padding: 20px;
-    }
-</style>
 <body>
-    <form method="POST" action="">
+    <div>
 
-        <fieldset>
-            <legend>EDIT PRODUCT</legend>
-            <table>
-                <tr>
-                    <td>Name <br>  <input type="text" name="name" value="<?php echo $data['NAME']; ?>"></td>
-
-                </tr>
-                <tr>
-                    <td>Buying Price <br> <input type="number" name="buying_price" value="<?php echo $data['buying_price']; ?>"></td>
-                </tr>
-                <tr>
-                    <td>Selling Price <br> <input type="number" name="selling_price" value="<?php echo $data['selling_price']; ?>">
-                    </td>
-                </tr>
-            </table>
-            <hr>
-            <input type="checkbox" name="display" value="Yes" <?php if($data['display'] == 'Yes') echo 'checked'; ?>>
-            <label for="display">Display</label>
-            <hr>
-            <input type="submit" name="update" value="Save">
-
-        </fieldset>
-    </form>
+        <form method="POST" action="">
+    
+            <fieldset>
+                <legend>EDIT PRODUCT</legend>
+                <table >
+                    <tr>
+                        <td>Name <br>  <input type="text" name="name" value="<?php echo $data['NAME']; ?>"></td>
+    
+                    </tr>
+                    <tr>
+                        <td>Buying Price <br> <input type="number" name="buying_price" value="<?php echo $data['buying_price']; ?>"></td>
+                    </tr>
+                    <tr>
+                        <td>Selling Price <br> <input type="number" name="selling_price" value="<?php echo $data['selling_price']; ?>">
+                        </td>
+                    </tr>
+                </table>
+                <hr>
+                <input type="checkbox" name="display" value="Yes" <?php if($data['display'] == 'Yes') echo 'checked'; ?>>
+                <label for="display">Display</label>
+                <hr>
+                <input type="submit" name="update" value="Save">
+    
+            </fieldset>
+        </form>
+    </div>
 </body>
 </html>
