@@ -60,8 +60,7 @@ require 'dbConn.php';
                 <tr>
                     <td>Name</td>
                     <td>Profit</td>
-                    <td colspan="2"></td>
-
+                    <td colspan="2">Action</td>
                 </tr>
             </thead>
             <tbody>
