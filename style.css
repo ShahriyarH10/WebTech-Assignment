@@ -34,8 +34,7 @@ table {
 
 tr,
 td,
-th
-{
+th {
     padding: 5px;
     border: 1px black solid;
 }

@@ -28,30 +28,33 @@ if (isset($_POST['save'])) {
 <head>
     <title>Add Product</title>
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
 <style>
-    table,tr,td{
+    table,
+    tr,
+    td {
         border: none
     }
 </style>
+
 <body>
     <div>
 
         <section class="menu">
-    
+
             <button> <a href="addProduct.php">Add Product</a></button>
             <button> <a href="displayProduct.php">Display Product</a></button>
             <button> <a href="search.php">Search Product</a></button>
         </section>
-    
+
         <form method="POST" action="">
             <fieldset>
                 <legend>ADD PRODUCT</legend>
                 <table>
                     <tr>
                         <td>Name <br> <input type="text" name="name" required></td>
-    
+
                     </tr>
                     <tr>
                         <td>Buying Price <br> <input type="number" name="buying_price" required></td>
@@ -66,7 +69,7 @@ if (isset($_POST['save'])) {
                 <label for="display">Display</label>
                 <hr>
                 <input type="submit" name="save" value="Save">
-    
+
             </fieldset>
         </form>
     </div>
